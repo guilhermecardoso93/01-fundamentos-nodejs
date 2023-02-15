@@ -20,7 +20,7 @@ const server = http.createServer(async (req, res) => {
     const { name, email } = req.body;
 
     const user = {
-      id: randomUUID(),
+      id: randomUUID,
       name,
       email,
     };
